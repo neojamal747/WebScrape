@@ -1,0 +1,27 @@
+{
+  "name": "webscrape",
+  "version": "1.0.0",
+  "description": "Use Cheerio and MongoDB to scrape a website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neojamal747/WebScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neojamal747/WebScrape/issues"
+  },
+  "homepage": "https://github.com/neojamal747/WebScrape#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.0.12",
+    "request": "^2.85.0"
+  }
+}
